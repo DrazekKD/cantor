@@ -37,23 +37,23 @@ const AddTransactions = () => {
 
 	const isDisabled = inputsContent.nameTransactionInput === '' || inputsContent.amountEuroTransactionInput <= 0;
 	return(
-		<div className="columns">
+		<div className="columns is-centered is-variable is-1-widescree">
 			<input
-				className="column is-one-fifth input"
+				className="column is-one-quarter input"
 				type="text"
 				name="nameTransactionInput"
 				value={inputsContent.nameTransactionInput}
 				placeholder="Transaction name"
 				onChange={handleInputChange}/>
 			<input
-				className="column is-one-fifth input"
+				className="column is-one-quarter input"
 				type="number"
 				name="amountEuroTransactionInput"
 				value={inputsContent.amountEuroTransactionInput}
 				placeholder="amountEuroTransactionInput"
 				onChange={handleInputChange}/>
 			<button
-				className="column is-one-fifth  button"
+				className="column is-one-quarter  button"
 				onClick={addListItem}
 				disabled={isDisabled}>
 				Add Transaction

@@ -16,9 +16,25 @@ const INITIAL_STATE = {
 		},
 		{
 			id: 3,
-			name: 'Investment',
-			amountEuro: 9.872
-		}
+			name: 'Investment 1',
+			amountEuro: 93.872
+		},
+		{
+			id: 4,
+			name: 'Investment 2',
+			amountEuro: 91.875
+		},
+		{
+			id: 5,
+			name: 'Investment 3',
+			amountEuro: 23.87
+		},
+		{
+			id: 6,
+			name: 'Investment 4',
+			amountEuro: 9100.87
+		},
+
 	]
 };
 

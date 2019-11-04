@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import ListTransactions from "./transactions/components/ListTransactions/ListTransactions";
 import AddTransactions from "./transactions/components/AddTransactions/AddTransactions";
 import ExchangeRate from "./transactions/components/ExchangeRate/ExchangeRate";
@@ -7,15 +7,17 @@ import TopTransactions from "./transactions/components/TopTransactions/TopTransa
 
 function App() {
   return (
-      <div className="columns">
-          <div className="column is-three-fifths">
-			  <ExchangeRate/>
-			  <ListTransactions/>
-			  <AddTransactions/>
-          </div>
-          <div className="column is-one-third">
-              <TopTransactions/>
-          </div>
+      <div className="app">
+		  <div className="columns is-centered is-variable is-8-widescreen">
+			  <div className="column is-two-fifths">
+				  <ExchangeRate/>
+				  <ListTransactions/>
+				  <AddTransactions/>
+			  </div>
+			  <div className="column is-one-third">
+				  <TopTransactions/>
+			  </div>
+		  </div>
       </div>
   );
 }

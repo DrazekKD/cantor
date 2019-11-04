@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34ec0ce7-4313-462c-ae35-3b89b48e1dc3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/transactions/components/TopTransactions/TopTransactions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/transactions/components/AddTransactions/AddTransactions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/components/AddTransactions/AddTransactions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transactions/components/ExchangeRate/ExchangeRate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/components/ExchangeRate/ExchangeRate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transactions/components/ListTransactions/ListTransactions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/components/ListTransactions/ListTransactions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transactions/duck/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/duck/reducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transactions/components/TopTransactions/TopTransactions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/components/TopTransactions/TopTransactions.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +25,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="2" />
+          <entry key="css" value="3" />
           <entry key="js" value="15" />
           <entry key="json" value="1" />
           <entry key="svg" value="1" />
@@ -37,7 +33,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="2" />
+          <entry key="CSS" value="3" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="15" />
           <entry key="SVG" value="1" />
@@ -50,15 +46,17 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="2502" />
+          <entry key="js" value="2564" />
+          <entry key="scss" value="33" />
           <entry key="svg" value="1" />
-          <entry key="txt" value="114" />
+          <entry key="txt" value="159" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="2502" />
-          <entry key="PLAIN_TEXT" value="114" />
+          <entry key="JavaScript" value="2564" />
+          <entry key="PLAIN_TEXT" value="159" />
+          <entry key="SCSS" value="33" />
           <entry key="SVG" value="1" />
         </counts>
       </usages-collector>
@@ -69,8 +67,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="70" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
+            <state relative-caret-position="150">
+              <caret line="10" column="72" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="72" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -78,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/transactions/components/ListTransactions/ListTransactions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="34" />
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="79" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -90,8 +100,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/transactions/components/TopTransactions/TopTransactions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="90">
+              <caret line="6" column="79" selection-start-line="6" selection-start-column="79" selection-end-line="6" selection-end-column="79" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -102,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/transactions/components/AddTransactions/AddTransactions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
-              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            <state relative-caret-position="337">
+              <caret line="39" column="70" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="70" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -151,15 +161,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/transactions/duck/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/transactions/duck/reducers.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="250">
@@ -185,10 +186,11 @@
         <option value="$PROJECT_DIR$/src/transactions/duck/types.js" />
         <option value="$PROJECT_DIR$/src/transactions/components/ExchangeRate/ExchangeRate.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/transactions/components/AddTransactions/AddTransactions.js" />
         <option value="$PROJECT_DIR$/src/transactions/duck/reducers.js" />
         <option value="$PROJECT_DIR$/src/transactions/components/ListTransactions/ListTransactions.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/App.scss" />
+        <option value="$PROJECT_DIR$/src/transactions/components/AddTransactions/AddTransactions.js" />
         <option value="$PROJECT_DIR$/src/transactions/components/TopTransactions/TopTransactions.js" />
       </list>
     </option>
@@ -292,7 +294,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572889395512</updated>
-      <workItem from="1572889398570" duration="11733000" />
+      <workItem from="1572889398570" duration="12861000" />
     </task>
     <task id="LOCAL-00001" summary="Add : reducer transactions, Add transactions component, ExchangeRate component, List Transactions component">
       <created>1572901831941</created>
@@ -301,11 +303,18 @@
       <option name="project" value="LOCAL" />
       <updated>1572901831941</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add: top5transaction, remove transaction">
+      <created>1572905633752</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572905633752</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11733000" />
+    <option name="totallyTimeSpent" value="12861000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="828" extended-state="6" />
@@ -345,12 +354,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add : reducer transactions, Add transactions component, ExchangeRate component, List Transactions component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add : reducer transactions, Add transactions component, ExchangeRate component, List Transactions component" />
+    <MESSAGE value="Add: top5transaction, remove transaction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add: top5transaction, remove transaction" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -412,13 +419,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="70" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -429,22 +429,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/transactions/components/ListTransactions/ListTransactions.js">
+    <entry file="file://$PROJECT_DIR$/src/App.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/transactions/components/AddTransactions/AddTransactions.js">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="150">
+          <caret line="10" column="72" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="72" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -456,10 +453,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/transactions/components/ListTransactions/ListTransactions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="79" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/transactions/components/AddTransactions/AddTransactions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="39" column="70" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/transactions/components/TopTransactions/TopTransactions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="90">
+          <caret line="6" column="79" selection-start-line="6" selection-start-column="79" selection-end-line="6" selection-end-column="79" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
