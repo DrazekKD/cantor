@@ -5,12 +5,13 @@ import {default as transactionsType} from '../../duck/types';
 const INITIAL_STATE = {
 	id: 1,
 	name: '',
-	amountEuro: 0,
+	amountEuro: 1,
 };
 
 const AddTransactions = () => {
 	const dispatch = useDispatch();
 	const transactions = useSelector(state => state.transactions.list);
+
 	const [inputsContent, setInputContent] = useReducer(
 		(state,newState)=>({...state, ...newState}),
 		{
@@ -33,24 +34,29 @@ const AddTransactions = () => {
 			item: newTransaction
 		})
 	};
+
+	const isDisabled = inputsContent.nameTransactionInput === '' || inputsContent.amountEuroTransactionInput <= 0;
 	return(
-		<div>
+		<div className="columns">
 			<input
+				className="column is-one-fifth input"
 				type="text"
 				name="nameTransactionInput"
 				value={inputsContent.nameTransactionInput}
 				placeholder="Transaction name"
 				onChange={handleInputChange}/>
 			<input
+				className="column is-one-fifth input"
 				type="number"
 				name="amountEuroTransactionInput"
 				value={inputsContent.amountEuroTransactionInput}
 				placeholder="amountEuroTransactionInput"
 				onChange={handleInputChange}/>
 			<button
-				className="button is-warning"
-				onClick={addListItem}>
-				Add Task
+				className="column is-one-fifth  button"
+				onClick={addListItem}
+				disabled={isDisabled}>
+				Add Transaction
 			</button>
 		</div>
 	)

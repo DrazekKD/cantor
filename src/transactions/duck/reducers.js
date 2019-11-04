@@ -2,7 +2,7 @@ import types from './types'
 
 
 const INITIAL_STATE = {
-	exchangeRate: 0,
+	exchangeRate: 4.43,
 	list: [
 		{
 			id: 1,
@@ -29,6 +29,10 @@ const transactionsReducer = ( state = INITIAL_STATE, action) => {
 		case types.ADD_TRANSACTION:
 			return {
 				...state, list: [...state.list, action.item]
+			};
+		case types.REMOVE_TRANSACTION:
+			return {
+				...state, list: [...state.list.filter(item => item.id !== action.item)]
 			};
 		case types.CHANGE_EXCHANGE_RATE:
 			return {
