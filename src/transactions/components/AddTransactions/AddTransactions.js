@@ -2,6 +2,9 @@ import React, {useReducer} from 'react'
 import {useDispatch} from 'react-redux';
 import {default as transactionsType} from '../../duck/types';
 import uniqid from "uniqid"
+import euroLogo from '../../../img/euro.svg'
+import './AddTransactions.scss'
+
 const INITIAL_STATE = {
 	id: 1,
 	name: '',
@@ -35,8 +38,11 @@ const AddTransactions = () => {
 
 	const isDisabled = inputsContent.nameTransactionInput === '' || inputsContent.amountEuroTransactionInput <= 0;
 	return(
-		<div className="columns">
-			<div className="column">
+		<article className="panel is-warning add-transaction-container">
+			<p className="panel-heading">
+				Add New Transaction
+			</p>
+			<div className="add-transaction-bar-container">
 				<input
 					className="input"
 					type="text"
@@ -44,17 +50,17 @@ const AddTransactions = () => {
 					value={inputsContent.nameTransactionInput}
 					placeholder="Transaction name"
 					onChange={handleInputChange}/>
-			</div>
-			<div className="column">
-				<input
-					className="input"
-					type="number"
-					name="amountEuroTransactionInput"
-					value={inputsContent.amountEuroTransactionInput}
-					placeholder="amountEuroTransactionInput"
-					onChange={handleInputChange}/>
-			</div>
-			<div className="column">
+				<div className="add-transaction-euro-container">
+					<input
+						className="input"
+						type="number"
+						name="amountEuroTransactionInput"
+						value={inputsContent.amountEuroTransactionInput}
+						placeholder="amountEuroTransactionInput"
+						onChange={handleInputChange}/>
+					<img src={euroLogo} alt="" width={35} height={35}/>
+				</div>
+
 				<button
 					className="button is-warning"
 					onClick={addListItem}
@@ -62,7 +68,7 @@ const AddTransactions = () => {
 					Add Transaction
 				</button>
 			</div>
-		</div>
+		</article>
 	)
 };
 

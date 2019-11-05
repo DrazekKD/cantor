@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34ec0ce7-4313-462c-ae35-3b89b48e1dc3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/transactions/components/ListTransactions/ListTransactions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transactions/components/ListTransactions/ListTransactions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/components/ListTransactions/ListTransactions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/transactions/components/AddTransactions/AddTransactions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transactions/components/AddTransactions/AddTransactions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/components/AddTransactions/AddTransactions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transactions/components/ExchangeRate/ExchangeRate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/components/ExchangeRate/ExchangeRate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transactions/components/ExchangeRate/ExchangeRate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/components/ExchangeRate/ExchangeRate.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +97,7 @@
       <workItem from="1572942577761" duration="630000" />
       <workItem from="1572951876921" duration="2675000" />
       <workItem from="1572956089984" duration="3748000" />
-      <workItem from="1572960767684" duration="1673000" />
+      <workItem from="1572960767684" duration="4459000" />
     </task>
     <task id="LOCAL-00001" summary="Add : reducer transactions, Add transactions component, ExchangeRate component, List Transactions component">
       <created>1572901831941</created>
@@ -172,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572962304803</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="change img color">
+      <created>1572962553325</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1572962553325</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +214,7 @@
     <MESSAGE value="add zloty and euro icon" />
     <MESSAGE value="add informationTransaction component in sumTransactions" />
     <MESSAGE value="change style app" />
-    <option name="LAST_COMMIT_MESSAGE" value="change style app" />
+    <MESSAGE value="change img color" />
+    <option name="LAST_COMMIT_MESSAGE" value="change img color" />
   </component>
 </project>

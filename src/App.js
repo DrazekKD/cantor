@@ -11,11 +11,11 @@ function App() {
       <div className="app">
 		  <div className="columns is-centered is-variable is-8-widescreen">
 			  <div className="column is-two-fifths">
-				  <ExchangeRate/>
-				  <ListTransactions/>
 				  <AddTransactions/>
+				  <ListTransactions/>
 			  </div>
 			  <div className="column is-one-third">
+				  <ExchangeRate/>
 				  <SumTransactions/>
 				  <TopTransactions/>
 			  </div>
