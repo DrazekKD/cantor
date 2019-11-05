@@ -13,11 +13,15 @@ const SumTransactions = () => {
 			<div>
 				<div>
 					<span>EURO </span>
-					{sumEuroAllTransactions}
+					<ConvertValue
+						amountEuro={sumEuroAllTransactions}/>
 				</div>
 				<div>
 					<span>PLN </span>
-					{ Math.round((sumEuroAllTransactions * exchangeRate) * 100) / 100}
+					<ConvertValue
+						amountEuro={sumEuroAllTransactions}
+						exchangeRate={exchangeRate}
+					/>
 				</div>
 			</div>
 		</div>

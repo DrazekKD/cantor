@@ -1,6 +1,6 @@
 import React from 'react'
 import {useSelector} from "react-redux";
-import ConvertValue from "../ConvertValue/ConvertValue";
+import InformationTransaction from "../InformationTransaction/InformationTransaction";
 
 
 const TopTransactions = () => {
@@ -18,10 +18,8 @@ const TopTransactions = () => {
 				{
 					topFiveTransactions.map(transaction =>
 						<div className="panel-block" key={transaction.id}>
-							{transaction.name}
-							{transaction.amountEuro}
-							<br/>
-							<ConvertValue
+							<InformationTransaction
+								name={transaction.name}
 								amountEuro={transaction.amountEuro}
 								exchangeRate={exchangeRate}
 							/>
