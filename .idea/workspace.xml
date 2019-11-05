@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34ec0ce7-4313-462c-ae35-3b89b48e1dc3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/transactions/components/InformationTransaction/InformationTransaction.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transactions/components/AddTransactions/AddTransactions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/components/AddTransactions/AddTransactions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transactions/components/ListTransactions/ListTransactions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/components/ListTransactions/ListTransactions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/transactions/components/SumTransactions/SumTransactions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/components/SumTransactions/SumTransactions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transactions/duck/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/duck/reducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transactions/duck/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/duck/types.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +28,17 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupnpm">
+      <scroll-view-position x="0" y="0" />
+      <selected-paths>
+        <path>
+          <id value="$PROJECT_DIR$/package.json" />
+          <id value="start" />
+        </path>
+      </selected-paths>
+    </layout>
   </component>
   <component name="ProjectId" id="1TBntsPymnmqxlvt01Ye0NiWUOj" />
   <component name="PropertiesComponent">
@@ -52,6 +67,23 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -63,7 +95,8 @@
       <option name="presentableId" value="Default" />
       <updated>1572889395512</updated>
       <workItem from="1572889398570" duration="15449000" />
-      <workItem from="1572942577761" duration="454000" />
+      <workItem from="1572942577761" duration="630000" />
+      <workItem from="1572951876921" duration="2553000" />
     </task>
     <task id="LOCAL-00001" summary="Add : reducer transactions, Add transactions component, ExchangeRate component, List Transactions component">
       <created>1572901831941</created>
@@ -86,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572906910584</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add sum component logic">
+      <created>1572943187420</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572943187420</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,7 +137,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -107,6 +149,7 @@
     <MESSAGE value="Add : reducer transactions, Add transactions component, ExchangeRate component, List Transactions component" />
     <MESSAGE value="Add: top5transaction, remove transaction" />
     <MESSAGE value="add new transaction state and style app by bulma.io" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new transaction state and style app by bulma.io" />
+    <MESSAGE value="add sum component logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sum component logic" />
   </component>
 </project>

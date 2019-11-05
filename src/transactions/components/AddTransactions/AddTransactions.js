@@ -10,7 +10,6 @@ const INITIAL_STATE = {
 
 const AddTransactions = () => {
 	const dispatch = useDispatch();
-	const transactions = useSelector(state => state.transactions.list);
 
 	const [inputsContent, setInputContent] = useReducer(
 		(state,newState)=>({...state, ...newState}),
@@ -21,12 +20,11 @@ const AddTransactions = () => {
 	);
 
 	const handleInputChange = e => setInputContent({[e.target.name]:e.target.value});
-
 	const addListItem = () => {
 		const newTransaction = {
-			id: transactions.length + 1,
+			id: 10,
 			name: inputsContent.nameTransactionInput,
-			amountEuro: inputsContent.amountEuroTransactionInput
+			amountEuro: parseFloat(inputsContent.amountEuroTransactionInput)
 		};
 
 		dispatch({

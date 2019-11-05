@@ -2,6 +2,7 @@ import types from './types'
 
 
 const INITIAL_STATE = {
+	idGenerator:8,
 	exchangeRate: 4.43,
 	list: [
 		{

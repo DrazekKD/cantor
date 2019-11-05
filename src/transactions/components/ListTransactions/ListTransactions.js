@@ -2,7 +2,7 @@ import React from 'react'
 import { useSelector,useDispatch } from 'react-redux'
 import {default as transactionsType} from '../../duck/types';
 
-import ConvertValue from '../ConvertValue/ConvertValue';
+import InformationTransaction from '../InformationTransaction/InformationTransaction';
 
 const ListTransactions = () => {
 
@@ -17,13 +17,13 @@ const ListTransactions = () => {
 	return	<div>
 		{transactions.map(transaction =>
 			<div key={transaction.id} className="notification is-primary">
-
+				<p>{transaction.id}</p>
 				<button
 					className="delete"
 					onClick={()=>removeTransaction(transaction.id)}>
 				</button>
-				{transaction.name}
-				<ConvertValue
+				<InformationTransaction
+					name={transaction.name}
 					amountEuro={transaction.amountEuro}
 					exchangeRate={exchangeRate}
 				/>
