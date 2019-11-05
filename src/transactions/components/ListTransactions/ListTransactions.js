@@ -1,8 +1,8 @@
 import React from 'react'
 import { useSelector,useDispatch } from 'react-redux'
 import {default as transactionsType} from '../../duck/types';
-
 import InformationTransaction from '../InformationTransaction/InformationTransaction';
+import './ListTransactions.scss'
 
 const ListTransactions = () => {
 
@@ -16,7 +16,7 @@ const ListTransactions = () => {
 
 	return	<div>
 		{transactions.map(transaction =>
-			<div key={transaction.id} className="notification is-primary">
+			<div key={transaction.id} className="transaction-container notification is-primary">
 				<button
 					className="delete is-warning"
 					onClick={()=>removeTransaction(transaction.id)}>
