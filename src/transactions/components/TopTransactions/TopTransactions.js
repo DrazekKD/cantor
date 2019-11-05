@@ -1,5 +1,6 @@
 import React from 'react'
 import {useSelector} from "react-redux";
+import ConvertValue from "../ConvertValue/ConvertValue";
 
 
 const TopTransactions = () => {
@@ -20,7 +21,10 @@ const TopTransactions = () => {
 							{transaction.name}
 							{transaction.amountEuro}
 							<br/>
-							{Math.round((transaction.amountEuro * exchangeRate) * 100) / 100}
+							<ConvertValue
+								amountEuro={transaction.amountEuro}
+								exchangeRate={exchangeRate}
+							/>
 						</div>
 					)
 				}

@@ -2,6 +2,8 @@ import React from 'react'
 import { useSelector,useDispatch } from 'react-redux'
 import {default as transactionsType} from '../../duck/types';
 
+import ConvertValue from '../ConvertValue/ConvertValue';
+
 const ListTransactions = () => {
 
 	const dispatch = useDispatch();
@@ -20,9 +22,11 @@ const ListTransactions = () => {
 					className="delete"
 					onClick={()=>removeTransaction(transaction.id)}>
 				</button>
-
 				{transaction.name}
-				{Math.round((transaction.amountEuro * exchangeRate) * 100) / 100}
+				<ConvertValue
+					amountEuro={transaction.amountEuro}
+					exchangeRate={exchangeRate}
+				/>
 			</div>
 		)}
 	</div>;

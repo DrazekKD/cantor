@@ -4,6 +4,7 @@ import ListTransactions from "./transactions/components/ListTransactions/ListTra
 import AddTransactions from "./transactions/components/AddTransactions/AddTransactions";
 import ExchangeRate from "./transactions/components/ExchangeRate/ExchangeRate";
 import TopTransactions from "./transactions/components/TopTransactions/TopTransactions";
+import SumTransactions from "./transactions/components/SumTransactions/SumTransactions";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
 				  <AddTransactions/>
 			  </div>
 			  <div className="column is-one-third">
+				  <SumTransactions/>
 				  <TopTransactions/>
 			  </div>
 		  </div>
