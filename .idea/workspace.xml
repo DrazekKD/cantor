@@ -3,17 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="34ec0ce7-4313-462c-ae35-3b89b48e1dc3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/transactions/components/AddTransactions/AddTransactions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/components/AddTransactions/AddTransactions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transactions/components/AddTransactions/AddTransactions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/components/AddTransactions/AddTransactions.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/transactions/components/ExchangeRate/ExchangeRate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/components/ExchangeRate/ExchangeRate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/transactions/components/ExchangeRate/ExchangeRate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/components/ExchangeRate/ExchangeRate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transactions/components/InformationTransaction/InformationTransaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/components/InformationTransaction/InformationTransaction.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/transactions/components/InformationTransaction/InformationTransaction.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/components/InformationTransaction/InformationTransaction.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transactions/components/ListTransactions/ListTransactions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/components/ListTransactions/ListTransactions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transactions/components/ListTransactions/ListTransactions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/components/ListTransactions/ListTransactions.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/transactions/components/SumTransactions/SumTransactions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/components/SumTransactions/SumTransactions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/transactions/components/SumTransactions/SumTransactions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/components/SumTransactions/SumTransactions.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/transactions/components/TopTransactions/TopTransactions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/components/TopTransactions/TopTransactions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transactions/components/TopTransactions/TopTransactions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/components/TopTransactions/TopTransactions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transactions/duck/actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transactions/duck/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/duck/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transactions/duck/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/duck/reducers.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,26 +29,28 @@
     <session id="75891912">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="2" />
-          <entry key="scss" value="5" />
+          <entry key="js" value="12" />
+          <entry key="scss" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="2" />
-          <entry key="SCSS" value="5" />
+          <entry key="JavaScript" value="12" />
+          <entry key="SCSS" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="21" />
-          <entry key="scss" value="121" />
+          <entry key="js" value="85" />
+          <entry key="scss" value="148" />
+          <entry key="txt" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="21" />
-          <entry key="SCSS" value="121" />
+          <entry key="JavaScript" value="85" />
+          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="SCSS" value="148" />
         </counts>
       </usages-collector>
     </session>
@@ -52,22 +58,31 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/transactions/components/TopTransactions/TopTransactions.js">
+        <entry file="file://$PROJECT_DIR$/src/transactions/components/SumTransactions/SumTransactions.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="17" column="53" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="53" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/transactions/components/InformationTransaction/InformationTransaction.js">
+        <entry file="file://$PROJECT_DIR$/src/transactions/components/ListTransactions/ListTransactions.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/transactions/components/ListTransactions/ListTransactions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="2" lean-forward="true" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,46 +91,16 @@
         <entry file="file://$PROJECT_DIR$/src/transactions/components/InformationTransaction/InformationTransaction.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/transactions/components/ExchangeRate/ExchangeRate.scss">
+        <entry file="file://$PROJECT_DIR$/src/transactions/components/InformationTransaction/InformationTransaction.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/transactions/components/ExchangeRate/ExchangeRate.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="65" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/transactions/components/TopTransactions/TopTransactions.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/transactions/components/SumTransactions/SumTransactions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="225">
+              <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -124,31 +109,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/transactions/components/SumTransactions/SumTransactions.scss">
+        <entry file="file://$PROJECT_DIR$/src/transactions/components/ExchangeRate/ExchangeRate.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="555">
+              <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
+        <entry file="file://$PROJECT_DIR$/src/transactions/components/ExchangeRate/ExchangeRate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="25" />
+            <state relative-caret-position="255">
+              <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.scss">
+        <entry file="file://$PROJECT_DIR$/src/transactions/components/ConvertValue/ConvertValue.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="45">
+              <caret line="3" column="85" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/transactions/components/AddTransactions/AddTransactions.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/transactions/components/AddTransactions/AddTransactions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="59">
+              <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -161,16 +167,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/transactions/components/ExchangeRate/ExchangeRate.js" />
-        <option value="$PROJECT_DIR$/src/transactions/components/AddTransactions/AddTransactions.js" />
-        <option value="$PROJECT_DIR$/src/transactions/components/ExchangeRate/ExchangeRate.scss" />
-        <option value="$PROJECT_DIR$/src/transactions/components/TopTransactions/TopTransactions.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/App.scss" />
-        <option value="$PROJECT_DIR$/src/transactions/components/InformationTransaction/InformationTransaction.scss" />
         <option value="$PROJECT_DIR$/src/transactions/components/TopTransactions/TopTransactions.scss" />
-        <option value="$PROJECT_DIR$/src/transactions/components/SumTransactions/SumTransactions.scss" />
+        <option value="$PROJECT_DIR$/src/transactions/duck/index.js" />
+        <option value="$PROJECT_DIR$/src/transactions/duck/reducers.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/transactions/components/TopTransactions/TopTransactions.js" />
         <option value="$PROJECT_DIR$/src/transactions/components/SumTransactions/SumTransactions.js" />
+        <option value="$PROJECT_DIR$/src/transactions/components/SumTransactions/SumTransactions.scss" />
+        <option value="$PROJECT_DIR$/src/transactions/components/ListTransactions/ListTransactions.scss" />
+        <option value="$PROJECT_DIR$/src/transactions/components/ListTransactions/ListTransactions.js" />
+        <option value="$PROJECT_DIR$/src/transactions/components/InformationTransaction/InformationTransaction.scss" />
+        <option value="$PROJECT_DIR$/src/transactions/components/InformationTransaction/InformationTransaction.js" />
+        <option value="$PROJECT_DIR$/src/transactions/components/ExchangeRate/ExchangeRate.scss" />
+        <option value="$PROJECT_DIR$/src/transactions/components/ExchangeRate/ExchangeRate.js" />
+        <option value="$PROJECT_DIR$/src/transactions/components/AddTransactions/AddTransactions.scss" />
+        <option value="$PROJECT_DIR$/src/transactions/components/AddTransactions/AddTransactions.js" />
       </list>
     </option>
   </component>
@@ -236,6 +248,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="transactions" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="ConvertValue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cantor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cantor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="transactions" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="ExchangeRate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -252,6 +272,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="transactions" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="ListTransactions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cantor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cantor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="transactions" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="SumTransactions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -261,6 +289,13 @@
               <item name="transactions" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="TopTransactions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cantor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cantor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="transactions" type="462c0819:PsiDirectoryNode" />
+              <item name="duck" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -553,11 +588,18 @@
       <option name="project" value="LOCAL" />
       <updated>1572966903423</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="style refactor">
+      <created>1572985643767</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1572985643767</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1029000" />
+    <option name="totallyTimeSpent" value="1738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="828" extended-state="6" />
@@ -572,10 +614,10 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32880434" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32880434" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32880434" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -651,56 +693,10 @@
     <MESSAGE value="change style app" />
     <MESSAGE value="change img color" />
     <MESSAGE value="change style AddTransaction and ExchangeRate" />
-    <option name="LAST_COMMIT_MESSAGE" value="change style AddTransaction and ExchangeRate" />
+    <MESSAGE value="style refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="style refactor" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/transactions/components/AddTransactions/AddTransactions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="71" column="23" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/transactions/components/ExchangeRate/ExchangeRate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/transactions/components/ExchangeRate/ExchangeRate.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/transactions/components/ListTransactions/ListTransactions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -708,24 +704,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/transactions/components/InformationTransaction/InformationTransaction.js">
+    <entry file="file://$PROJECT_DIR$/src/transactions/duck/actions.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/transactions/duck/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="60">
+          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/transactions/components/InformationTransaction/InformationTransaction.scss">
+    <entry file="file://$PROJECT_DIR$/src/transactions/duck/reducers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="107">
+          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/transactions/duck/types.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/transactions/components/TopTransactions/TopTransactions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="17" column="53" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="53" />
+        <state relative-caret-position="165">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -739,19 +748,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/transactions/components/SumTransactions/SumTransactions.scss">
+    <entry file="file://$PROJECT_DIR$/src/transactions/components/SumTransactions/SumTransactions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        <state relative-caret-position="315">
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/transactions/components/SumTransactions/SumTransactions.js">
+    <entry file="file://$PROJECT_DIR$/src/transactions/components/SumTransactions/SumTransactions.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/transactions/components/ListTransactions/ListTransactions.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/transactions/components/ListTransactions/ListTransactions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="2" lean-forward="true" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/transactions/components/InformationTransaction/InformationTransaction.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/transactions/components/InformationTransaction/InformationTransaction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/transactions/components/ExchangeRate/ExchangeRate.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/transactions/components/ExchangeRate/ExchangeRate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/transactions/components/ConvertValue/ConvertValue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="85" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/transactions/components/AddTransactions/AddTransactions.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/transactions/components/AddTransactions/AddTransactions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>

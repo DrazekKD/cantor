@@ -1,26 +1,30 @@
-.exchange-rate-button{
+.exchange-rate-button {
 	vertical-align: center;
 }
-.exchange-rate-container{
+
+.exchange-rate-container {
 	display: flex;
 	margin-right: 30px;
 	align-items: center;
 }
-.exchange-rate-bar-container{
-	padding: 30px 0 30px 0 ;
+
+.exchange-rate-bar-container {
+	padding: 30px 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 
-	button{
+	button {
 		font-weight: 700;
 	}
 }
-.exchange-rate-euro-container{
+
+.exchange-rate-euro-container {
 	display: flex;
 	justify-content: center;
 	align-content: center;
-	span{
+
+	span {
 		font-size: 30px;
 		font-weight: 700;
 		display: flex;
@@ -30,7 +34,8 @@
 		padding: 0 5px;
 	}
 }
-.exchange-rate-input-container{
+
+.exchange-rate-input-container {
 	display: flex;
 	max-width: 150px;
 }

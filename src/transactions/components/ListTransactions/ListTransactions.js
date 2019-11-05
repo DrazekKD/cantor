@@ -5,30 +5,29 @@ import InformationTransaction from '../InformationTransaction/InformationTransac
 import './ListTransactions.scss'
 
 const ListTransactions = () => {
-
 	const dispatch = useDispatch();
 	const transactions = useSelector(state => state.transactions.list);
 	const exchangeRate = useSelector(state => state.transactions.exchangeRate);
 
-	const removeTransaction = (id) => {
-		dispatch({type:transactionsType.REMOVE_TRANSACTION, item:id})
-	};
+	const removeTransaction = (id) => dispatch({type:transactionsType.REMOVE_TRANSACTION, item:id});
 
-	return	<div>
-		{transactions.map(transaction =>
-			<div key={transaction.id} className="transaction-container notification is-primary">
-				<button
-					className="delete is-warning"
-					onClick={()=>removeTransaction(transaction.id)}>
-				</button>
-				<InformationTransaction
-					name={transaction.name}
-					amountEuro={transaction.amountEuro}
-					exchangeRate={exchangeRate}
-				/>
-			</div>
-		)}
-	</div>;
+	return (
+		<div>
+			{transactions.map(transaction =>
+				<div key={transaction.id} className="transaction-container notification is-primary">
+					<button
+						className="delete is-warning"
+						onClick={()=>removeTransaction(transaction.id)}>
+					</button>
+					<InformationTransaction
+						name={transaction.name}
+						amountEuro={transaction.amountEuro}
+						exchangeRate={exchangeRate}
+					/>
+				</div>
+			)}
+		</div>
+	)
 
 };
 

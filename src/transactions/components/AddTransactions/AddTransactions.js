@@ -22,6 +22,7 @@ const AddTransactions = () => {
 	);
 
 	const handleInputChange = e => setInputContent({[e.target.name]:e.target.value});
+
 	const addListItem = () => {
 		const newTransaction = {
 			id: uniqid(),
@@ -41,6 +42,7 @@ const AddTransactions = () => {
 	};
 
 	const isDisabled = inputsContent.nameTransactionInput === '' || inputsContent.amountEuroTransactionInput <= 0;
+
 	return(
 		<article className="panel is-warning add-transaction-container">
 			<p className="panel-heading">

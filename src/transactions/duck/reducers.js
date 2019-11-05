@@ -7,34 +7,25 @@ const INITIAL_STATE = {
 	list: [
 		{
 			id: 1,
-			name: 'On Holiday',
-			amountEuro: 30
+			name: 'For Holiday',
+			amountEuro: 30.1
 		},
 		{
 			id: 2,
-			name: 'On Party',
+			name: 'For Party',
 			amountEuro: 19.4
 		},
 		{
 			id: 3,
-			name: 'Investment 1',
-			amountEuro: 93.872
+			name: 'Investment',
+			amountEuro: 93.82
 		},
 		{
 			id: 4,
-			name: 'Investment 2',
-			amountEuro: 91.875
+			name: 'For Birthday',
+			amountEuro: 91.87
 		},
-		{
-			id: 5,
-			name: 'Investment 3',
-			amountEuro: 23.87
-		},
-		{
-			id: 6,
-			name: 'Investment 4',
-			amountEuro: 9100.87
-		},
+
 
 	]
 };

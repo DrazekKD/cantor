@@ -9,11 +9,11 @@ import SumTransactions from "./transactions/components/SumTransactions/SumTransa
 function App() {
   return (
       <div className="app">
-		  <div className="">
+		  <div>
 			  <AddTransactions/>
 			  <ListTransactions/>
 		  </div>
-		  <div className="">
+		  <div>
 			  <ExchangeRate/>
 			  <SumTransactions/>
 			  <TopTransactions/>

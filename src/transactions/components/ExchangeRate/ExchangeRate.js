@@ -8,6 +8,7 @@ import "./ExchangeRate.scss";
 const ExchangeRate = () => {
 	const dispatch = useDispatch();
 	const exchangeRate = useSelector(state => state.transactions.exchangeRate);
+
 	const [inputContent, setInputContent] = useState(exchangeRate);
 
 	const handleInputChange = e => setInputContent(e.target.value);

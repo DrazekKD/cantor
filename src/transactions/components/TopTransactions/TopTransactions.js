@@ -9,6 +9,7 @@ const TopTransactions = () => {
 
 	const sortTransactions = transactions.sort((a, b) => (a.amountEuro < b.amountEuro) ? 1 : -1);
 	const topFiveTransactions = sortTransactions.slice(0,3);
+
 	return (
 		<div>
 			<article className="panel is-primary">

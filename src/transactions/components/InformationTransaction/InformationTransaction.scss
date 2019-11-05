@@ -1,20 +1,21 @@
-.information-value-container{
+.information-value-container {
 	display: flex;
 	justify-content: flex-end;
 	align-content: center;
 	font-weight: 700;
 	letter-spacing: 1.2px;
-	div{
+	min-width: 100px;
+
+	div {
 		display: flex;
 		justify-content: center;
 		align-content: center;
 		flex-direction: column;
 		margin-right: 10px;
 	}
-	min-width: 100px;
 }
 
-.information-name-container{
+.information-name-container {
 	line-height: 35px;
 	font-weight: 700;
 	font-size: 13px;

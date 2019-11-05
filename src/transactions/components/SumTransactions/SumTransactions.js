@@ -8,6 +8,7 @@ const SumTransactions = () => {
 	const exchangeRate = useSelector(state => state.transactions.exchangeRate);
 
 	const sumEuroAllTransactions = transactions.reduce( (sum, transaction) => sum + transaction.amountEuro, 0);
+
 	return (
 		<div className="sum-container">
 			<div>
