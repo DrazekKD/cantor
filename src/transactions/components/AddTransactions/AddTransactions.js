@@ -1,5 +1,5 @@
 import React, {useReducer} from 'react'
-import {useDispatch, useSelector} from 'react-redux';
+import {useDispatch} from 'react-redux';
 import {default as transactionsType} from '../../duck/types';
 import uniqid from "uniqid"
 const INITIAL_STATE = {

@@ -18,7 +18,7 @@ const ListTransactions = () => {
 		{transactions.map(transaction =>
 			<div key={transaction.id} className="notification is-primary">
 				<button
-					className="delete"
+					className="delete is-warning"
 					onClick={()=>removeTransaction(transaction.id)}>
 				</button>
 				<InformationTransaction

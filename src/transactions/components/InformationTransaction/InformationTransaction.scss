@@ -1,0 +1,17 @@
+.information-value-container{
+	display: flex;
+	justify-content: flex-end;
+	align-content: center;
+	div{
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		flex-direction: column;
+		margin-right: 10px;
+	}
+	min-width: 120px;
+}
+.information-name-container{
+	text-align: center;
+	line-height: 35px;
+}

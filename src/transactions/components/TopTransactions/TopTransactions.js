@@ -1,7 +1,7 @@
 import React from 'react'
 import {useSelector} from "react-redux";
 import InformationTransaction from "../InformationTransaction/InformationTransaction";
-
+import './TopTransactions.scss'
 
 const TopTransactions = () => {
 	const transactions = useSelector(state => state.transactions.list);
@@ -17,7 +17,7 @@ const TopTransactions = () => {
 				</p>
 				{
 					topFiveTransactions.map(transaction =>
-						<div className="panel-block" key={transaction.id}>
+						<div key={transaction.id}>
 							<InformationTransaction
 								name={transaction.name}
 								amountEuro={transaction.amountEuro}

@@ -2,21 +2,27 @@ import React from 'react'
 import ConvertValue from "../ConvertValue/ConvertValue";
 import euroLogo from '../../../img/euro.svg'
 import zlotyLogo from '../../../img/zloty.svg'
+import './InformationTransaction.scss'
+
 const InformationTransaction = (props) =>
 	<div className="columns">
-		{!!props.name && <div className="column">{props.name}</div>}
+		{!!props.name && <div className="column information-name-container">{props.name}</div>}
 		<div className="column">
-			<ConvertValue
-				amountEuro={props.amountEuro}/>
-			<img src={euroLogo} alt="" width={40} height={40}/>
+			<div className="information-value-container">
+				<ConvertValue
+					amountEuro={props.amountEuro}/>
+				<img src={euroLogo} alt="" width={35} height={35}/>
+			</div>
 		</div>
 		<div className="column">
-			<ConvertValue
-				amountEuro={props.amountEuro}
-				exchangeRate={props.exchangeRate}
-			/>
-			<img src={zlotyLogo} alt="" width={40} height={40}/>
+			<div className="information-value-container">
+				<ConvertValue
+					amountEuro={props.amountEuro}
+					exchangeRate={props.exchangeRate}
+				/>
+				<img src={zlotyLogo} alt="" width={35} height={35}/>
+			</div>
 		</div>
-	</div>
+	</div>;
 
 export default InformationTransaction
