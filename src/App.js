@@ -9,16 +9,14 @@ import SumTransactions from "./transactions/components/SumTransactions/SumTransa
 function App() {
   return (
       <div className="app">
-		  <div className="columns is-centered is-variable is-8-widescreen">
-			  <div className="column is-two-fifths">
-				  <AddTransactions/>
-				  <ListTransactions/>
-			  </div>
-			  <div className="column is-one-third">
-				  <ExchangeRate/>
-				  <SumTransactions/>
-				  <TopTransactions/>
-			  </div>
+		  <div className="">
+			  <AddTransactions/>
+			  <ListTransactions/>
+		  </div>
+		  <div className="">
+			  <ExchangeRate/>
+			  <SumTransactions/>
+			  <TopTransactions/>
 		  </div>
       </div>
   );

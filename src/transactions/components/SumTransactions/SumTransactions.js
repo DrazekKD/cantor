@@ -9,13 +9,13 @@ const SumTransactions = () => {
 
 	const sumEuroAllTransactions = transactions.reduce( (sum, transaction) => sum + transaction.amountEuro, 0);
 	return (
-		<div className="sumContainer">
+		<div className="sum-container">
 			<div>
-				<article className="panel is-warning">
+				<article className="panel is-primary">
 					<p className="panel-heading">
 						Total Sum Transaction
 					</p>
-					<div className="panel-block is-flex">
+					<div className="panel-block is-flex sum-information-container">
 						<InformationTransaction
 							amountEuro={sumEuroAllTransactions}
 							exchangeRate={exchangeRate}

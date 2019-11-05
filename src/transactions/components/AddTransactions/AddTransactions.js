@@ -69,7 +69,7 @@ const AddTransactions = () => {
 					className="button is-warning"
 					onClick={addListItem}
 					disabled={isDisabled}>
-					Add Transaction
+					Add
 				</button>
 			</div>
 		</article>

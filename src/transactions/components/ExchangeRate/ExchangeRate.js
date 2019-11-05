@@ -40,7 +40,7 @@ const ExchangeRate = () => {
 				<button
 					className="button is-warning"
 					onClick={changeExchangeRate}>
-					Change Exchange Rate
+					Change
 				</button>
 			</div>
 	</article>

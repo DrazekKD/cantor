@@ -1,3 +1,11 @@
 .app{
 	margin-top: 50px;
+	display: flex;
+	justify-content: space-evenly;
+
+	@media(max-width: 900px) {
+		flex-direction: column;
+		max-width: 700px;
+		margin: 0 auto;
+	}
 }

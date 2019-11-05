@@ -8,12 +8,12 @@ const TopTransactions = () => {
 	const exchangeRate = useSelector(state => state.transactions.exchangeRate);
 
 	const sortTransactions = transactions.sort((a, b) => (a.amountEuro < b.amountEuro) ? 1 : -1);
-	const topFiveTransactions = sortTransactions.slice(0,5);
+	const topFiveTransactions = sortTransactions.slice(0,3);
 	return (
-		<di>
+		<div>
 			<article className="panel is-primary">
 				<p className="panel-heading">
-					Top 5 Transaction
+					Top 3 Transaction
 				</p>
 				<div className="top-transactions-list">
 					{
@@ -29,7 +29,7 @@ const TopTransactions = () => {
 					}
 				</div>
 			</article>
-		</di>
+		</div>
 	)
 };
 
