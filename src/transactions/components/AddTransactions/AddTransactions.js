@@ -1,7 +1,7 @@
 import React, {useReducer} from 'react'
 import {useDispatch, useSelector} from 'react-redux';
 import {default as transactionsType} from '../../duck/types';
-
+import uniqid from "uniqid"
 const INITIAL_STATE = {
 	id: 1,
 	name: '',
@@ -22,7 +22,7 @@ const AddTransactions = () => {
 	const handleInputChange = e => setInputContent({[e.target.name]:e.target.value});
 	const addListItem = () => {
 		const newTransaction = {
-			id: 10,
+			id: uniqid(),
 			name: inputsContent.nameTransactionInput,
 			amountEuro: parseFloat(inputsContent.amountEuroTransactionInput)
 		};

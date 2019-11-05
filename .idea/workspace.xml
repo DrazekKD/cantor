@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34ec0ce7-4313-462c-ae35-3b89b48e1dc3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/transactions/components/InformationTransaction/InformationTransaction.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/transactions/components/AddTransactions/AddTransactions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/components/AddTransactions/AddTransactions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transactions/components/ListTransactions/ListTransactions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/components/ListTransactions/ListTransactions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transactions/components/SumTransactions/SumTransactions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/components/SumTransactions/SumTransactions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transactions/duck/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/duck/reducers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transactions/duck/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/transactions/duck/types.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +93,8 @@
       <updated>1572889395512</updated>
       <workItem from="1572889398570" duration="15449000" />
       <workItem from="1572942577761" duration="630000" />
-      <workItem from="1572951876921" duration="2553000" />
+      <workItem from="1572951876921" duration="2675000" />
+      <workItem from="1572956089984" duration="149000" />
     </task>
     <task id="LOCAL-00001" summary="Add : reducer transactions, Add transactions component, ExchangeRate component, List Transactions component">
       <created>1572901831941</created>
@@ -126,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572943187420</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add information transaction component">
+      <created>1572955064509</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572955064509</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +155,7 @@
     <MESSAGE value="Add: top5transaction, remove transaction" />
     <MESSAGE value="add new transaction state and style app by bulma.io" />
     <MESSAGE value="add sum component logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="add sum component logic" />
+    <MESSAGE value="add information transaction component" />
+    <option name="LAST_COMMIT_MESSAGE" value="add information transaction component" />
   </component>
 </project>
