@@ -6,7 +6,6 @@ import euroLogo from '../../../img/euro.svg'
 import './AddTransactions.scss'
 
 const INITIAL_STATE = {
-	id: 1,
 	name: '',
 	amountEuro: 1,
 };
@@ -33,7 +32,12 @@ const AddTransactions = () => {
 		dispatch({
 			type: transactionsType.ADD_TRANSACTION,
 			item: newTransaction
-		})
+		});
+
+		setInputContent({
+			nameTransactionInput: INITIAL_STATE.name,
+			amountEuroTransactionInput: INITIAL_STATE.amountEuro
+		});
 	};
 
 	const isDisabled = inputsContent.nameTransactionInput === '' || inputsContent.amountEuroTransactionInput <= 0;

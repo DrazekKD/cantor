@@ -1,6 +1,7 @@
 .add-transaction-bar-container{
 	padding: 20px 20px;
 	display: flex;
+	align-content: center;
 }
 
 .add-transaction-euro-container{
@@ -8,4 +9,7 @@
 	justify-content: center;
 	align-content: center;
 	margin: 0 10px;
+	img{
+		margin: 0 5px;
+	}
 }

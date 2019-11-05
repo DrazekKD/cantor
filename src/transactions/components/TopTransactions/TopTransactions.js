@@ -10,24 +10,26 @@ const TopTransactions = () => {
 	const sortTransactions = transactions.sort((a, b) => (a.amountEuro < b.amountEuro) ? 1 : -1);
 	const topFiveTransactions = sortTransactions.slice(0,5);
 	return (
-		<div>
+		<di>
 			<article className="panel is-primary">
 				<p className="panel-heading">
 					Top 5 Transaction
 				</p>
-				{
-					topFiveTransactions.map(transaction =>
-						<div key={transaction.id}>
-							<InformationTransaction
-								name={transaction.name}
-								amountEuro={transaction.amountEuro}
-								exchangeRate={exchangeRate}
-							/>
-						</div>
-					)
-				}
+				<div className="top-transactions-list">
+					{
+						topFiveTransactions.map(transaction =>
+							<div key={transaction.id}>
+								<InformationTransaction
+									name={transaction.name}
+									amountEuro={transaction.amountEuro}
+									exchangeRate={exchangeRate}
+								/>
+							</div>
+						)
+					}
+				</div>
 			</article>
-		</div>
+		</di>
 	)
 };
 
