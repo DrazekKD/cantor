@@ -25,7 +25,7 @@ const ExchangeRate = () => {
 			</div>
 			<div className="column">
 				<button
-					className="button"
+					className="button is-warning"
 					onClick={changeExchangeRate}>
 					Change Exchange Rate
 				</button>

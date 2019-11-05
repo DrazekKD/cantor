@@ -35,7 +35,7 @@ const AddTransactions = () => {
 
 	const isDisabled = inputsContent.nameTransactionInput === '' || inputsContent.amountEuroTransactionInput <= 0;
 	return(
-		<div className="columns is-gapless">
+		<div className="columns">
 			<div className="column">
 				<input
 					className="input"
@@ -54,9 +54,9 @@ const AddTransactions = () => {
 					placeholder="amountEuroTransactionInput"
 					onChange={handleInputChange}/>
 			</div>
-			<div className="column is-offset-1">
+			<div className="column">
 				<button
-					className="button"
+					className="button is-warning"
 					onClick={addListItem}
 					disabled={isDisabled}>
 					Add Transaction
