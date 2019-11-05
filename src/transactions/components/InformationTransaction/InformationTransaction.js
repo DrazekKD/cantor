@@ -4,7 +4,7 @@ import euroLogo from '../../../img/euro.svg'
 import zlotyLogo from '../../../img/zloty.svg'
 const InformationTransaction = (props) =>
 	<div className="columns">
-		<div className="column">{props.name}</div>
+		{!!props.name && <div className="column">{props.name}</div>}
 		<div className="column">
 			<ConvertValue
 				amountEuro={props.amountEuro}/>

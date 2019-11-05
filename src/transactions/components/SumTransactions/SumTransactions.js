@@ -1,6 +1,7 @@
 import React from 'react'
 import {useSelector} from "react-redux";
 import ConvertValue from "../ConvertValue/ConvertValue";
+import InformationTransaction from "../InformationTransaction/InformationTransaction";
 import './SumTransactions.scss'
 import euroLogo from '../../../img/euro.svg'
 import zlotyLogo from '../../../img/zloty.svg'
@@ -18,18 +19,22 @@ const SumTransactions = () => {
 						Total Sum Transaction
 					</p>
 					<div className="panel-block is-flex">
-						<div>
-							<ConvertValue
-								amountEuro={sumEuroAllTransactions}/>
-							<img src={euroLogo} alt="" width={40} height={40}/>
-						</div>
-						<div>
-							<ConvertValue
-								amountEuro={sumEuroAllTransactions}
-								exchangeRate={exchangeRate}
-							/>
-							<img src={zlotyLogo} alt=""  width={40} height={40}/>
-						</div>
+						<InformationTransaction
+							amountEuro={sumEuroAllTransactions}
+							exchangeRate={exchangeRate}
+						/>
+						{/*<div>*/}
+						{/*	<ConvertValue*/}
+						{/*		amountEuro={sumEuroAllTransactions}/>*/}
+						{/*	<img src={euroLogo} alt="" width={40} height={40}/>*/}
+						{/*</div>*/}
+						{/*<div>*/}
+						{/*	<ConvertValue*/}
+						{/*		amountEuro={sumEuroAllTransactions}*/}
+						{/*		exchangeRate={exchangeRate}*/}
+						{/*	/>*/}
+						{/*	<img src={zlotyLogo} alt=""  width={40} height={40}/>*/}
+						{/*</div>*/}
 					</div>
 				</article>
 			</div>
