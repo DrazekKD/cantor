@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/cantor/static/css/main.e6004059.chunk.css",
-    "main.js": "/cantor/static/js/main.4d12a141.chunk.js",
-    "main.js.map": "/cantor/static/js/main.4d12a141.chunk.js.map",
+    "main.css": "/cantor/static/css/main.23e1144e.chunk.css",
+    "main.js": "/cantor/static/js/main.0ed4d305.chunk.js",
+    "main.js.map": "/cantor/static/js/main.0ed4d305.chunk.js.map",
     "runtime-main.js": "/cantor/static/js/runtime-main.e6015f2e.js",
     "runtime-main.js.map": "/cantor/static/js/runtime-main.e6015f2e.js.map",
     "static/css/2.1e6845a9.chunk.css": "/cantor/static/css/2.1e6845a9.chunk.css",
     "static/js/2.46664ad8.chunk.js": "/cantor/static/js/2.46664ad8.chunk.js",
     "static/js/2.46664ad8.chunk.js.map": "/cantor/static/js/2.46664ad8.chunk.js.map",
     "index.html": "/cantor/index.html",
-    "precache-manifest.485b666c54234187b75f7455edc4ee7e.js": "/cantor/precache-manifest.485b666c54234187b75f7455edc4ee7e.js",
+    "precache-manifest.a79602a938b73db1e1b2a4ad9e7d8a0f.js": "/cantor/precache-manifest.a79602a938b73db1e1b2a4ad9e7d8a0f.js",
     "service-worker.js": "/cantor/service-worker.js",
     "static/css/2.1e6845a9.chunk.css.map": "/cantor/static/css/2.1e6845a9.chunk.css.map",
-    "static/css/main.e6004059.chunk.css.map": "/cantor/static/css/main.e6004059.chunk.css.map",
+    "static/css/main.23e1144e.chunk.css.map": "/cantor/static/css/main.23e1144e.chunk.css.map",
     "static/media/euro.svg": "/cantor/static/media/euro.2ce17e11.svg",
     "static/media/zloty.svg": "/cantor/static/media/zloty.cf322526.svg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.e6015f2e.js",
     "static/css/2.1e6845a9.chunk.css",
     "static/js/2.46664ad8.chunk.js",
-    "static/css/main.e6004059.chunk.css",
-    "static/js/main.4d12a141.chunk.js"
+    "static/css/main.23e1144e.chunk.css",
+    "static/js/main.0ed4d305.chunk.js"
   ]
 }

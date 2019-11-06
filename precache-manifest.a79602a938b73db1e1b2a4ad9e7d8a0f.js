@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c6c4f0194780d375338078b20a578ff4",
+    "revision": "457d093e075a85825b979a88242cd513",
     "url": "/cantor/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cantor/static/css/2.1e6845a9.chunk.css"
   },
   {
-    "revision": "6411e9fecdab03ae8ea7",
-    "url": "/cantor/static/css/main.e6004059.chunk.css"
+    "revision": "3a378c83df632e1c0a17",
+    "url": "/cantor/static/css/main.23e1144e.chunk.css"
   },
   {
     "revision": "11961ac9d834392b5487",
     "url": "/cantor/static/js/2.46664ad8.chunk.js"
   },
   {
-    "revision": "6411e9fecdab03ae8ea7",
-    "url": "/cantor/static/js/main.4d12a141.chunk.js"
+    "revision": "3a378c83df632e1c0a17",
+    "url": "/cantor/static/js/main.0ed4d305.chunk.js"
   },
   {
     "revision": "5d4e93357f47b4461552",
