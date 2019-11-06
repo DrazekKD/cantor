@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "17acfee7fed6ce240092407941bf492e",
+    "revision": "75630c9c29115087352915c7f00c6dcf",
     "url": "/DrazekKD/cantor/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/DrazekKD/cantor/static/css/2.1e6845a9.chunk.css"
   },
   {
-    "revision": "6a0cea59f2a7377ebfee",
-    "url": "/DrazekKD/cantor/static/css/main.047b4d98.chunk.css"
+    "revision": "8d06b678fb65f78dad71",
+    "url": "/DrazekKD/cantor/static/css/main.e6004059.chunk.css"
   },
   {
     "revision": "11961ac9d834392b5487",
     "url": "/DrazekKD/cantor/static/js/2.46664ad8.chunk.js"
   },
   {
-    "revision": "6a0cea59f2a7377ebfee",
-    "url": "/DrazekKD/cantor/static/js/main.8c02399f.chunk.js"
+    "revision": "8d06b678fb65f78dad71",
+    "url": "/DrazekKD/cantor/static/js/main.0b9a192a.chunk.js"
   },
   {
     "revision": "b1f4e75d322ce922f55a",
