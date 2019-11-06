@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "https://drazekkd.github.io/cantor",
   "dependencies": {
+    "@testing-library/jest-dom": "^4.2.3",
+    "@testing-library/react": "^9.3.2",
     "bulma": "^0.8.0",
     "gh-pages": "^2.1.1",
     "node-sass": "^4.13.0",
