@@ -1,5 +1,6 @@
 import React from 'react'
 import ConvertValue from "../ConvertValue/ConvertValue";
+import PropTypes from 'prop-types';
 import euroLogo from '../../../img/euro.svg'
 import zlotyLogo from '../../../img/zloty.svg'
 import './InformationTransaction.scss'
@@ -27,3 +28,9 @@ const InformationTransaction = (props) =>
 	</div>;
 
 export default InformationTransaction
+
+InformationTransaction.propTypes = {
+	name: PropTypes.string,
+	amountEuro: PropTypes.number,
+	exchangeRate: PropTypes.number
+};
