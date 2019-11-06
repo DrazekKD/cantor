@@ -1,7 +1,8 @@
 .app{
-	margin-top: 50px;
 	display: flex;
 	justify-content: space-evenly;
+	max-width: 1200px;
+	margin: 50px auto;
 
 	@media(max-width: 900px) {
 		flex-direction: column;
